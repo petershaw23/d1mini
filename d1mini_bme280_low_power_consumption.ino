@@ -4,11 +4,11 @@
 // new version, utilizing deep sleep mode
 // wiring for bme280 from berrybase.de: 3v3->VCC   G->GND   DI->SCL    D2->SDA      (CSB, SDO not connected)
 const int sleepSeconds = 300;
-const char* ssid = "monnemm";
-const char* password = "me2kUurCjpht";
+const char* ssid = "PUT WIFI SSID HERE";
+const char* password = "PUT WIFI PW HERE";
  
 const char* server = "api.thingspeak.com";
-String apiKey = "KGXTB1D2NUPP4G5T";
+String apiKey = "PUT THINGSPEAK WRITE KEY HERE";
 
 const char* wl_status_to_string(wl_status_t status) {
   switch (status) {
