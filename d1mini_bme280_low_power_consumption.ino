@@ -1,7 +1,7 @@
 #include<Wire.h>
 #include <ESP8266WiFi.h>
 
-
+// new version, utilizing deep sleep mode
 // wiring for bme280 from berrybase.de: 3v3->VCC   G->GND   DI->SCL    D2->SDA      (CSB, SDO not connected)
 const int sleepSeconds = 300;
 const char* ssid = "monnemm";
