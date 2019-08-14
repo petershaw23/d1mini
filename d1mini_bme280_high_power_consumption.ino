@@ -1,7 +1,7 @@
 #include<Wire.h>
 #include <ESP8266WiFi.h>
 
-
+// old version, with "delay" (not utilizing deep sleep modes)
 // wiring for bme280 from berrybase.de: 3v3->VCC   G->GND   DI->SCL    D2->SDA      (CSB, SDO not connected)
 
 const char* ssid = "WIFI SSID HERE";
