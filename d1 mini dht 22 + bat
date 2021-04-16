@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
  
 // replace with your channels thingspeak API key and your SSID and password
-String apiKey = "2PGKDUSTWXWR0OFK";
+String apiKey = "XXXXXX";
 const char* ssid = "Bud!Box2ghz";
-const char* password = "Tahoma23";
+const char* password = "XXXX";
 const char* server = "api.thingspeak.com";
 const int sleepSeconds = 300;
  
