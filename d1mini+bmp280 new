@@ -12,9 +12,9 @@
 
 Adafruit_BME280 bme; // I2C
 // replace with your channel’s thingspeak API key,
-String apiKey = "UUIR9GYRF0SQ2SQU";
+String apiKey = "";
 const char* ssid = "GGMM_E5_442C";
-const char* password = "Tahoma23";
+const char* password = "";
 const char* server = "api.thingspeak.com";
 WiFiClient client;
 
